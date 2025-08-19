@@ -3,7 +3,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 import { useState } from "react";
 
 const CaseStudySection = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(0); // used for state management function
 
   const caseStudies = [
     {
